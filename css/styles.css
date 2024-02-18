@@ -1,0 +1,127 @@
+/* ====universal styles==== */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+/* ====universal styles==== */
+
+/* ====header styles==== */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.accent {
+  color: #2e2f42;
+}
+.page-link-nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.page-link-nav:hover,
+.page-link-nav:focus {
+  color: #404bbf;
+}
+
+.page-contact {
+  font-style: normal;
+}
+.page-link-contact {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.page-link-contact:hover,
+.page-link-contact:focus {
+  color: #404bbf;
+}
+
+/* ====main styles==== */
+
+.page-present {
+  background: #2e2f42;
+}
+.page-title-present {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.page-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+
+.page-btn:hover,
+.page-btn:focus {
+  color: #fff;
+  background: #404bbf;
+}
+
+.title-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.text-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.page-team {
+  text-align: center;
+  background-color: #f4f4fd;
+}
+
+.page-team-item {
+  background: #fff;
+}
+/* ====page-footer styles==== */
+.page-footer {
+  background: #2e2f42;
+}
+.text-footer {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.accent-footer {
+  color: #f4f4fd;
+}
