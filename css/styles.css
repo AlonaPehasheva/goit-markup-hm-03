@@ -56,14 +56,14 @@ img {
   max-width: 452px;
   justify-content: space-between;
 }
-.container-header-list {
+.page-list-nav {
   display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
   margin-right: 332px;
   gap: 40px;
 }
-.container-header-adress {
+.page-list-contact {
   display: flex;
   gap: 40px;
   padding-top: 24px;
@@ -115,7 +115,9 @@ img {
 
 .page-present {
   background: #2e2f42;
-  height: 600px;
+}
+.container-page-present {
+  padding: 188px 0 292px 0;
 }
 .page-title-present {
   font-size: 56px;
@@ -125,9 +127,8 @@ img {
   color: #fff;
   max-width: 496px;
   height: 120px;
-  padding-top: 188px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .page-btn {
@@ -141,6 +142,11 @@ img {
   min-width: 169px;
   border: none;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  padding: 16px 32px;
+  height: 56px;
 }
 
 .page-btn:hover,
@@ -157,7 +163,7 @@ img {
 .page-benefits {
   visibility: hidden;
 }
-.container-page-benefis-list {
+.page-benefis-list {
   display: flex;
   justify-content: space-evenly;
   gap: 24px;
@@ -187,7 +193,7 @@ img {
   padding-top: 120px;
   margin-bottom: 72px;
 }
-.container-page-team-list {
+.page-team-list {
   display: flex;
   justify-content: space-evenly;
   gap: 24px;
@@ -204,7 +210,7 @@ img {
 .title-page-portfolio {
   padding-top: 120px;
 }
-.container-portfolio-list {
+.portfolio-list {
   display: flex;
   justify-content: space-evenly;
   gap: 24px;
