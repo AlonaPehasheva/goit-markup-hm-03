@@ -7,10 +7,23 @@ body {
 a {
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 ul,
 ol {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 h2 {
   font-size: 36px;
@@ -20,9 +33,42 @@ h2 {
   text-align: center;
   color: #2e2f42;
 }
+.container {
+  max-width: 1128px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* ====universal styles==== */
 
 /* ====header styles==== */
+.container-header {
+  display: flex;
+  justify-content: space-between;
+}
+.page-nav {
+  display: flex;
+  flex-direction: row;
+  max-width: 452px;
+  justify-content: space-between;
+}
+.container-header-list {
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 332px;
+  gap: 40px;
+}
+.container-header-adress {
+  display: flex;
+  gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -31,6 +77,9 @@ h2 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-top: 24px;
+  margin-right: 76px;
+  margin-bottom: 24px;
 }
 .accent {
   color: #2e2f42;
@@ -66,6 +115,7 @@ h2 {
 
 .page-present {
   background: #2e2f42;
+  height: 600px;
 }
 .page-title-present {
   font-size: 56px;
@@ -73,6 +123,11 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
+  height: 120px;
+  padding-top: 188px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-btn {
@@ -83,6 +138,9 @@ h2 {
   color: #fff;
   background: #4d5ae5;
   cursor: pointer;
+  min-width: 169px;
+  border: none;
+  display: block;
 }
 
 .page-btn:hover,
@@ -91,28 +149,67 @@ h2 {
   background: #404bbf;
 }
 
+/* styles section second */
+.section-styles {
+  padding-bottom: 120px;
+}
+
+.page-benefits {
+  visibility: hidden;
+}
+.container-page-benefis-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+}
 .title-item {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .text-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 32px;
 }
-
+/* styles section three */
 .page-team {
   text-align: center;
   background-color: #f4f4fd;
 }
 
+.title-page-team {
+  padding-top: 120px;
+  margin-bottom: 72px;
+}
+.container-page-team-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+.img-team {
+  margin-bottom: 32px;
+}
 .page-team-item {
   background: #fff;
 }
+
+/* styles section four */
+
+.title-page-portfolio {
+  padding-top: 120px;
+}
+.container-portfolio-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+
 /* ====page-footer styles==== */
 .page-footer {
   background: #2e2f42;
