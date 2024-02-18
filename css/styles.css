@@ -34,7 +34,7 @@ h2 {
   color: #2e2f42;
 }
 .container {
-  max-width: 1128px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -49,18 +49,18 @@ img {
 .container-header {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-nav {
   display: flex;
   flex-direction: row;
   max-width: 452px;
   justify-content: space-between;
+  align-items: center;
 }
 .page-list-nav {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin-right: 332px;
+  padding: 24px 0;
   gap: 40px;
 }
 .page-list-contact {
@@ -117,7 +117,7 @@ img {
   background: #2e2f42;
 }
 .container-page-present {
-  padding: 188px 0 292px 0;
+  padding: 188px 0 188px 0;
 }
 .page-title-present {
   font-size: 56px;
@@ -157,11 +157,21 @@ img {
 
 /* styles section second */
 .section-styles {
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
-.page-benefits {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .page-benefis-list {
   display: flex;
